@@ -1,0 +1,42 @@
+h1{
+    color:aqua;
+    margin-left: 25px;
+  }
+  *{
+    border:solid}
+
+    .header{
+        background-color: rgb(196, 98, 143);
+        
+        margin-right: 30px;
+        justify-content: space-between;
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 58px;
+    }
+    .g1{
+        position: relative;
+
+    }
+    .g1 p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 0;
+    }
+    .g1:hover p{
+        opacity: 1;
+    }
+    .g1:hover img{
+       opacity: 0.33;
+    }
+    a:link{
+        color: coral;
+    }
+    a:visited{
+        color:cyan
+    }
